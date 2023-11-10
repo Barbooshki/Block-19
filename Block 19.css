@@ -1,0 +1,46 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#freelancers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+#freelancers-list div {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#average-price {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* Add hover effect for freelancers */
+#freelancers-list div:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
